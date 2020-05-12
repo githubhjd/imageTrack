@@ -35,7 +35,6 @@ public class ImageIdentify {
         VideoCapture capture = new VideoCapture();
         // capture.open(0);
         capture.open("D:\\Files\\video\\20190926_131808.MP4");
-//        capture.open("F:\\办公软件\\QuickMediaEditor\\QuickMideos\\20190816现场录制盒子 (1).MP4");
 
         if(!capture.isOpened()) {
             System.out.println("could not load video data...");
